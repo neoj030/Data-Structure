@@ -12,7 +12,7 @@ class SelectionSortTest {
 	void test() {
 		int[] arr = {7,8,5,2,4,6,3};
 		int[] expected = {2,3,4,5,6,7,8};
-		assertArrayEquals(expected, BubbleSort.bubbleSort(arr));
+		assertArrayEquals(expected, SelectionSort.selectionSort(arr));
 	}
 
 }

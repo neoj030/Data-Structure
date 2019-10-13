@@ -21,7 +21,7 @@ public class InsertionSort {
 	public static void main(String[] args) {
 		int[] arr = {7,8,5,2,4,6,3};
 		
-		int[] result =BubbleSort.bubbleSort(arr);
+		int[] result =insertionSort(arr);
 		
 		System.out.print("[");
 		for(int i: result) {
